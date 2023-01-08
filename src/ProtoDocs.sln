@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoDocs.Parser.Tests", "ProtoDocs.Parser.Tests\ProtoDocs.Parser.Tests.csproj", "{DF1C99A5-04D4-44EE-B72A-533E0277470C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoDocs.Parser", "ProtoDocs.Parser\ProtoDocs.Parser.csproj", "{1A511FF9-4DD1-4C70-8F4E-BF0BF8E25276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF1C99A5-04D4-44EE-B72A-533E0277470C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1C99A5-04D4-44EE-B72A-533E0277470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1C99A5-04D4-44EE-B72A-533E0277470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1C99A5-04D4-44EE-B72A-533E0277470C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A511FF9-4DD1-4C70-8F4E-BF0BF8E25276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A511FF9-4DD1-4C70-8F4E-BF0BF8E25276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A511FF9-4DD1-4C70-8F4E-BF0BF8E25276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A511FF9-4DD1-4C70-8F4E-BF0BF8E25276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

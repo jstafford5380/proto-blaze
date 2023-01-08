@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\draep\AppData\Local\JetBrains\Rider2022.3\resharper-host\temp\Rider\vAny\CoverageData\_ProtoDocs.-79591016\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=02d80720_002D13e8_002D4e4d_002D805a_002D97157452fbcd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Test1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Tokenize_Comment&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Tokenize_Syntax&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Tokenize_Package&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Tokenize_Import&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Tokenize_Option&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.LexerTests.Tokenize_Service&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.MessageParserTests.Parse_TypedOnly_Parses&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.FieldParserTests.Parse_SimpleField&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.FieldParserTests.Parse_WithSimpleOption&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.OptionParserTests.Parse_SimpleOption&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.OptionParserTests.Parse_FullIdent&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DF1C99A5-04D4-44EE-B72A-533E0277470C::net7.0::ProtoDocs.Parser.Tests.FieldParserTests.Parse_WithMultipleOptions&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=206b54d1_002Deee2_002D4b53_002Da57d_002D1d94e00a386e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

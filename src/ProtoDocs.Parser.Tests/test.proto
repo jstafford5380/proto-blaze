@@ -1,0 +1,78 @@
+﻿syntax = "proto3";
+
+package curator;
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+import "petm/curator/common.proto";
+
+option csharp_namespace = "PetSmart.Rpc.Curator.Notifications";
+
+service NotificationsService {
+  rpc GetNotification(stream GetNotificationByIdRequest) returns (stream GetNotificationByIdResponse);
+  rpc GetNotificationsByRecipient(GetNotificationsByRecipientRequest) returns (GetNotificationsResponse);
+  rpc GetNotificationsBySystem(GetNotificationsBySystemRequest) returns (GetNotificationsBySystemResponse);
+  rpc MarkMessageDelivered(MessageStatusChangeRequest) returns (google.protobuf.Empty);
+  rpc MarkMessageRead(MessageStatusChangeRequest) returns (google.protobuf.Empty);
+}
+
+message GetNotificationsByRecipientRequest {
+  string recipient_reference = 1;
+  PagedRequest page_info = 2;
+  bool include_read = 3;
+}
+
+message GetNotificationsResponse {
+  repeated Notification notifications = 1;
+  PagedResponse page_info = 2;
+}
+
+message GetNotificationsBySystemRequest {
+  string system_reference = 1;
+  PagedRequest page_info = 2;
+}
+
+message GetNotificationsBySystemResponse {
+  repeated EntityNotification notifications = 1;
+  PagedResponse page_info = 2;
+}
+
+message GetNotificationByIdRequest {
+  string message_id = 1;
+}
+
+message GetNotificationByIdResponse {
+  Notification message = 1;
+}
+
+message MessageStatusChangeRequest {
+  repeated string message_ids = 1;
+  google.protobuf.Timestamp timestamp = 2;
+}
+
+message Notification {
+  string id = 1;
+  NotificationSeverity severity = 2;
+  string summary = 3;
+  string body = 4;
+  google.protobuf.Timestamp created = 5;
+  google.protobuf.Timestamp read = 6;
+}
+
+message EntityNotification {
+  string entity_reference = 1;
+  string entity_title = 2;
+  Notification notification = 3;
+}
+
+enum NotificationSeverity
+{
+  SEVERITY_UNSPECIFIED = 0;
+  SEVERITY_SUCCESS     = 1;
+  SEVERITY_DEBUG       = 2;
+  SEVERITY_INFO        = 3;
+  SEVERITY_WARNING     = 4;
+  SEVERITY_ERROR       = 5;
+  SEVERITY_CRITICAL    = 6;
+}
